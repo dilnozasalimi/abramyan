@@ -7,7 +7,7 @@ function systemSolution(A1, B1, C1, A2, B2, C2) {
     C2 = parseInt(C2);
     const D = A1 * B2 - A2 * B1;
     const x = (C1 * B2 - C2 * B1) / D;
-    const y = (A1 * C2 - A2 * C1);
+    const y = (A1 * C2 - A2 * C1)/D;
     const txt = 'D=' + D + '; x=' + x + ' ;y=' + y;
     return txt;
 }

@@ -1,7 +1,7 @@
 function linearEquation(A,B) {
     A= parseInt(A);
     B = parseInt(B);
-    const x=-B/A; A!=0;
+    const x=(-B)/A;
     return x;
 }
 const inputA = window.prompt('please enter value for A', 0);
