@@ -1,8 +1,8 @@
 function number(A) {
     A = parseInt(A);
-    const c = A / 10;
-    const b = A % 10;
-    const txt = 'c=' + c + '; b=' + b;
+    const c =Math.floor ( A / 10);
+    const b =(A % 10);
+    const txt = 'c=' + b+ '; b=' + c;
     return txt;
 }
 const inputA = window.prompt('please enter value for A', 0);
