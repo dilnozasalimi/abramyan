@@ -1,8 +1,8 @@
 function number(A) {
     A = parseInt(A);
     const b = Math.floor(A / 100);
-    const c = Math.ceil(A % 10) ;
-    const d = Math.ceil (A / 100);
+    const c = Math.floor(A % 10) ;
+    const d = Math.floor (A / 10)%10;
     const txt = 'b=' + c + '; c=' + d + '; d=' + b;
     return txt;
 }
